@@ -205,7 +205,6 @@ dependencies:
   - traitlets=5.13.0=pyhd8ed1ab_0
   - typing_extensions=4.7.1=py39h06a4308_0
   - typing_utils=0.1.0=pyhd8ed1ab_0
-  - tzdata=2023c=h04d1e81_0
   - urllib3=1.26.18=py39h06a4308_0
   - wcwidth=0.2.9=pyhd8ed1ab_0
   - webencodings=0.5.1=pyhd8ed1ab_2
@@ -217,4 +216,29 @@ dependencies:
   - zipp=3.17.0=pyhd8ed1ab_0
   - zlib=1.2.13=h5eee18b_0
   - zstd=1.5.5=hc292b87_0
-prefix: /nfshomes/skarki/scratch/miniconda3/envs/llm
+  - pip:
+      - accelerate==0.24.1
+      - bitsandbytes==0.41.1
+      - contourpy==1.1.1
+      - cycler==0.12.1
+      - fonttools==4.43.1
+      - fsspec==2023.10.0
+      - huggingface-hub==0.17.3
+      - joblib==1.3.2
+      - kiwisolver==1.4.5
+      - matplotlib==3.8.0
+      - pandas==2.1.2
+      - git+https://github.com/huggingface/peft@139624750a6a431b9958be5c9485aec5571d64c1
+      - psutil==5.9.6
+      - pyparsing==3.1.1
+      - regex==2023.10.3
+      - safetensors==0.4.0
+      - scikit-learn==1.3.2
+      - scipy==1.11.3
+      - seaborn==0.13.0
+      - threadpoolctl==3.2.0
+      - tokenizers==0.14.1
+      - tqdm==4.66.1
+      - transformers==4.34.1
+      - tzdata==2023.3
+prefix: /nfshomes/skarki/scratch/miniconda3/envs/llame
